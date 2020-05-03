@@ -1,0 +1,71 @@
+  [
+    {
+      "standingPunishmentList": [
+        {
+          "main": true,
+          "frames": 10,
+          "move": "1, 2"
+        },
+        {
+          "main": true,
+          "frames": 11,
+          "move": "2, 1"
+        },
+        {
+          "main": false,
+          "frames": 12,
+          "move": "4"
+        },
+        {
+          "main": true,
+          "frames": 13,
+          "move": "3, 4"
+        },
+        {
+          "main": true,
+          "frames": 14,
+          "move": "f+1+2"
+        },
+        {
+          "main": true,
+          "frames": 15,
+          "move": "u/f+4"
+        },
+        {
+          "main": true,
+          "frames": 16,
+          "move": "d/f+2, 1"
+        },
+        {
+          "main": false,
+          "frames": 17,
+          "move": "f+4,2"
+        }
+      ]
+    },
+    {
+    "whilePunishmentList":
+    [
+      {
+        "main": true,
+        "frames": 10,
+        "move": "FC d+1"
+      },
+      {
+        "main": true,
+        "frames": 11,
+        "move": "WS+4"
+      },
+      {
+        "main": true,
+        "frames": 14,
+        "move": "WS+2,4"
+      },
+      {
+        "main": true,
+        "frames": 15,
+        "move": "u/f+4"
+      }
+    ]
+    }
+  ]

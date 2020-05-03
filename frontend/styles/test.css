@@ -1,0 +1,26 @@
+:host([theme~="nuc-resource-details-grid"]) [part~="row"][selected] [part~="body-cell"]:not([part~="details-cell"]) {
+    background-color: blue;
+}
+
+:host([theme~="holdings-grid"]) [part~="row"][selected] [part~="body-cell"]:not([part~="details-cell"]) {
+    background-color: purple;
+}
+
+:host([theme~="nuc-resource-details-grid"])[part~="row"]:last-child [part~="header-cell"], [part~="header-cell"]:not(:empty):not([details-cell]) {
+    padding-top: var(--lumo-space-xs);
+    padding-bottom: var(--lumo-space-xs);
+
+    font-size: 26px;
+    border-bottom: 1px solid var(--lumo-shade-5pct);
+    color: white;
+}
+
+:host([theme~="holdings-grid"])[part~="row"]:last-child [part~="header-cell"], [part~="header-cell"]:not(:empty):not([details-cell]) {
+    padding-top: var(--lumo-space-xs);
+    padding-bottom: var(--lumo-space-xs);
+
+    font-size: var(--lumo-font-size-s);
+    border-bottom: 1px solid var(--lumo-shade-5pct);
+    background: red;
+    color: green;
+}

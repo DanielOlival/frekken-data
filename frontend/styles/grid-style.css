@@ -1,0 +1,13 @@
+:host(.styled) #header tr {
+    text-align: center;
+    --text-shadow: 0 0 3px rgba(81, 203, 238, 1);
+    --text-transform: uppercase;
+}
+
+[part~="header-cell"] ::slotted(vaadin-grid-cell-content), [part~="footer-cell"] ::slotted(vaadin-grid-cell-content), [part~="reorder-ghost"] {
+     font-size: 16px;
+     font-weight: 1000;
+}
+
+
+

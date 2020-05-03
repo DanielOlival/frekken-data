@@ -1,0 +1,13 @@
+   [
+     {
+       "move": "f,f+1+2",
+       "hit_level": "h(Throw)",
+       "damage": "40",
+       "startup_range": "12",
+       "on_block": "",
+       "on_hit": "Throw(KND)",
+       "on_counter_hit": "Throw(KND)",
+       "notes": "1+2 break",
+       "punishment": "1+2 break"
+     }
+]
